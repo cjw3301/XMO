@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KXN | 科迅网络</title>
+		<style>
+			 * {
+				 margin: 0;
+				 padding: 0;
+				 box-sizing: border-box;
+			 }
+			html {
+				height: 100%;
+				overflow: hidden;
+			}
+			body {
+				min-height: 100%;
+				width: 100%;
+				margin: 0;
+				border: 0;
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				background-color: #000;
+				color: #fff;
+			}
+			.header{
+				width: 100%;
+				text-align: center;
+				position: fixed;
+				top:0;
+			}
+			.container {
+				margin: auto;
+				padding-top:100px;
+				min-height:800px;
+				text-align: center;
+			}
+			.footer{
+				width: 100%;
+				text-align: center;
+				position: fixed;
+				bottom: 0;
+			}
+			.p {
+				width: 100%;
+			}
+	 /*CSS导航菜单基础样式重置 */
+	.menu{
+		width: 100%;
+		background-color: #333;
+			}	
+	/* 导航菜单容器 */
+	.navbar {
+		margin: auto;
+		width: 400px;
+		font-family: Arial, sans-serif;
+			}
+	/* 菜单样式 */
+        .nav-list {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        .nav-list > li {
+            position: relative;
+        }
+        
+        .nav-list a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        /* 悬停效果 */
+        .nav-list a:hover {
+            background-color: #555;
+        }
+
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="menu">
+				<nav class="navbar">
+				<ul class="nav-list">
+					<li><a href="#home">首页</a></li>
+					<li><a href="#biz">业务</a></li>
+					<li><a href="#case">项目</a></li>
+					<li><a href="#contact">联系</a></li>
+				</ul>
+				</nav>
+			</div>
+			<h1 style="font-size:30px;margin-top:20px;">KXN | 科迅网络</h1>
+		</div>
+		<div id="home" class="container">
+			<p style="color:red;font-size:28px;margin-top:200px;">一家提供AI应用集群、CDN加速的近场计算公司，在云南、海南、新疆设有近场算力中心。</p>
+		</div>
+		<div id="biz" class="container">
+			<p style="color:red;font-size:42px;line-height:200px;">提供AI应用集群</p>
+			<p style="color:red;font-size:28px;">AI销售、AI客服、AI剪辑、AI HR、AI财务</p>
+			<p style="font-size:28px;margin-top:50px;">首创智能体蜂群矩阵，专家级多媒体视频生成、自动化售前售后客服、全自动销售成交。</p>
+		</div>
+		<div id="case" class="container">
+			<p style="color:red;font-size:42px;line-height:200px;">项目</p>
+			<p style="color:red;font-size:28px;">云南、海南、新疆</p>
+		</div>
+		<div id="contact" class="container">
+			<p style="color:red;font-size:42px;line-height:200px;">联系我们</p>
+			<p style="font-size:16px;line-height:30px;">info@KXN.com</p>
+		</div>
+		<div class="footer">
+			<p style="color:red;font-size:42px;">KXN</p>
+		        <p style="font-size:16px;line-height:30px;">info@KXN.com</p>
+		</div>
+	</body>
+</html>
